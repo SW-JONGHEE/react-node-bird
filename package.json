@@ -1,7 +1,6 @@
 {
   "name": "react-nodebird-front",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next"
@@ -14,9 +13,11 @@
     "next": "^9.5.5",
     "next-redux-wrapper": "^6.0.2",
     "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "redux": "^4.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-redux": "7.2.2",
+    "redux": "4.0.5",
+    "redux-devtools-extension": "^2.13.8",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
@@ -24,5 +25,14 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SW-JONGHEE/react-node-bird.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SW-JONGHEE/react-node-bird/issues"
+  },
+  "homepage": "https://github.com/SW-JONGHEE/react-node-bird#readme",
+  "description": ""
 }
